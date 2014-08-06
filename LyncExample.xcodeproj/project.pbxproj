@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8649E613199223C5006AFAE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649E612199223C5006AFAE7 /* Foundation.framework */; };
+		8649E615199223C5006AFAE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649E614199223C5006AFAE7 /* CoreGraphics.framework */; };
+		8649E617199223C5006AFAE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649E616199223C5006AFAE7 /* UIKit.framework */; };
+		8649E61D199223C5006AFAE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8649E61B199223C5006AFAE7 /* InfoPlist.strings */; };
+		8649E61F199223C5006AFAE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649E61E199223C5006AFAE7 /* main.m */; };
+		8649E623199223C5006AFAE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649E622199223C5006AFAE7 /* AppDelegate.m */; };
+		8649E626199223C5006AFAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8649E624199223C5006AFAE7 /* Main.storyboard */; };
+		8649E629199223C5006AFAE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649E628199223C5006AFAE7 /* ViewController.m */; };
+		8649E62B199223C5006AFAE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8649E62A199223C5006AFAE7 /* Images.xcassets */; };
+		8649E632199223C5006AFAE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649E631199223C5006AFAE7 /* XCTest.framework */; };
+		8649E633199223C5006AFAE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649E612199223C5006AFAE7 /* Foundation.framework */; };
+		8649E634199223C5006AFAE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8649E616199223C5006AFAE7 /* UIKit.framework */; };
+		8649E63C199223C5006AFAE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8649E63A199223C5006AFAE7 /* InfoPlist.strings */; };
+		8649E63E199223C5006AFAE7 /* LyncExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649E63D199223C5006AFAE7 /* LyncExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8649E635199223C5006AFAE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8649E607199223C5006AFAE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8649E60E199223C5006AFAE7;
+			remoteInfo = LyncExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8649E60F199223C5006AFAE7 /* LyncExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyncExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8649E612199223C5006AFAE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8649E614199223C5006AFAE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8649E616199223C5006AFAE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8649E61A199223C5006AFAE7 /* LyncExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyncExample-Info.plist"; sourceTree = "<group>"; };
+		8649E61C199223C5006AFAE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8649E61E199223C5006AFAE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8649E620199223C5006AFAE7 /* LyncExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LyncExample-Prefix.pch"; sourceTree = "<group>"; };
+		8649E621199223C5006AFAE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8649E622199223C5006AFAE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8649E625199223C5006AFAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8649E627199223C5006AFAE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8649E628199223C5006AFAE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8649E62A199223C5006AFAE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8649E630199223C5006AFAE7 /* LyncExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyncExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8649E631199223C5006AFAE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8649E639199223C5006AFAE7 /* LyncExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyncExampleTests-Info.plist"; sourceTree = "<group>"; };
+		8649E63B199223C5006AFAE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8649E63D199223C5006AFAE7 /* LyncExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyncExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8649E60C199223C5006AFAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649E615199223C5006AFAE7 /* CoreGraphics.framework in Frameworks */,
+				8649E617199223C5006AFAE7 /* UIKit.framework in Frameworks */,
+				8649E613199223C5006AFAE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8649E62D199223C5006AFAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649E632199223C5006AFAE7 /* XCTest.framework in Frameworks */,
+				8649E634199223C5006AFAE7 /* UIKit.framework in Frameworks */,
+				8649E633199223C5006AFAE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8649E606199223C5006AFAE7 = {
+			isa = PBXGroup;
+			children = (
+				8649E618199223C5006AFAE7 /* LyncExample */,
+				8649E637199223C5006AFAE7 /* LyncExampleTests */,
+				8649E611199223C5006AFAE7 /* Frameworks */,
+				8649E610199223C5006AFAE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8649E610199223C5006AFAE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8649E60F199223C5006AFAE7 /* LyncExample.app */,
+				8649E630199223C5006AFAE7 /* LyncExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8649E611199223C5006AFAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8649E612199223C5006AFAE7 /* Foundation.framework */,
+				8649E614199223C5006AFAE7 /* CoreGraphics.framework */,
+				8649E616199223C5006AFAE7 /* UIKit.framework */,
+				8649E631199223C5006AFAE7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8649E618199223C5006AFAE7 /* LyncExample */ = {
+			isa = PBXGroup;
+			children = (
+				8649E621199223C5006AFAE7 /* AppDelegate.h */,
+				8649E622199223C5006AFAE7 /* AppDelegate.m */,
+				8649E624199223C5006AFAE7 /* Main.storyboard */,
+				8649E627199223C5006AFAE7 /* ViewController.h */,
+				8649E628199223C5006AFAE7 /* ViewController.m */,
+				8649E62A199223C5006AFAE7 /* Images.xcassets */,
+				8649E619199223C5006AFAE7 /* Supporting Files */,
+			);
+			path = LyncExample;
+			sourceTree = "<group>";
+		};
+		8649E619199223C5006AFAE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8649E61A199223C5006AFAE7 /* LyncExample-Info.plist */,
+				8649E61B199223C5006AFAE7 /* InfoPlist.strings */,
+				8649E61E199223C5006AFAE7 /* main.m */,
+				8649E620199223C5006AFAE7 /* LyncExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8649E637199223C5006AFAE7 /* LyncExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8649E63D199223C5006AFAE7 /* LyncExampleTests.m */,
+				8649E638199223C5006AFAE7 /* Supporting Files */,
+			);
+			path = LyncExampleTests;
+			sourceTree = "<group>";
+		};
+		8649E638199223C5006AFAE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8649E639199223C5006AFAE7 /* LyncExampleTests-Info.plist */,
+				8649E63A199223C5006AFAE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8649E60E199223C5006AFAE7 /* LyncExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8649E641199223C5006AFAE7 /* Build configuration list for PBXNativeTarget "LyncExample" */;
+			buildPhases = (
+				8649E60B199223C5006AFAE7 /* Sources */,
+				8649E60C199223C5006AFAE7 /* Frameworks */,
+				8649E60D199223C5006AFAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyncExample;
+			productName = LyncExample;
+			productReference = 8649E60F199223C5006AFAE7 /* LyncExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8649E62F199223C5006AFAE7 /* LyncExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8649E644199223C5006AFAE7 /* Build configuration list for PBXNativeTarget "LyncExampleTests" */;
+			buildPhases = (
+				8649E62C199223C5006AFAE7 /* Sources */,
+				8649E62D199223C5006AFAE7 /* Frameworks */,
+				8649E62E199223C5006AFAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8649E636199223C5006AFAE7 /* PBXTargetDependency */,
+			);
+			name = LyncExampleTests;
+			productName = LyncExampleTests;
+			productReference = 8649E630199223C5006AFAE7 /* LyncExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8649E607199223C5006AFAE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Vmoksha;
+				TargetAttributes = {
+					8649E62F199223C5006AFAE7 = {
+						TestTargetID = 8649E60E199223C5006AFAE7;
+					};
+				};
+			};
+			buildConfigurationList = 8649E60A199223C5006AFAE7 /* Build configuration list for PBXProject "LyncExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8649E606199223C5006AFAE7;
+			productRefGroup = 8649E610199223C5006AFAE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8649E60E199223C5006AFAE7 /* LyncExample */,
+				8649E62F199223C5006AFAE7 /* LyncExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8649E60D199223C5006AFAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649E62B199223C5006AFAE7 /* Images.xcassets in Resources */,
+				8649E61D199223C5006AFAE7 /* InfoPlist.strings in Resources */,
+				8649E626199223C5006AFAE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8649E62E199223C5006AFAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649E63C199223C5006AFAE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8649E60B199223C5006AFAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649E629199223C5006AFAE7 /* ViewController.m in Sources */,
+				8649E623199223C5006AFAE7 /* AppDelegate.m in Sources */,
+				8649E61F199223C5006AFAE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8649E62C199223C5006AFAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649E63E199223C5006AFAE7 /* LyncExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8649E636199223C5006AFAE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8649E60E199223C5006AFAE7 /* LyncExample */;
+			targetProxy = 8649E635199223C5006AFAE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8649E61B199223C5006AFAE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8649E61C199223C5006AFAE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8649E624199223C5006AFAE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8649E625199223C5006AFAE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8649E63A199223C5006AFAE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8649E63B199223C5006AFAE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8649E63F199223C5006AFAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8649E640199223C5006AFAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8649E642199223C5006AFAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyncExample/LyncExample-Prefix.pch";
+				INFOPLIST_FILE = "LyncExample/LyncExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8649E643199223C5006AFAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyncExample/LyncExample-Prefix.pch";
+				INFOPLIST_FILE = "LyncExample/LyncExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8649E645199223C5006AFAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LyncExample.app/LyncExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyncExample/LyncExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LyncExampleTests/LyncExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8649E646199223C5006AFAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LyncExample.app/LyncExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyncExample/LyncExample-Prefix.pch";
+				INFOPLIST_FILE = "LyncExampleTests/LyncExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8649E60A199223C5006AFAE7 /* Build configuration list for PBXProject "LyncExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8649E63F199223C5006AFAE7 /* Debug */,
+				8649E640199223C5006AFAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8649E641199223C5006AFAE7 /* Build configuration list for PBXNativeTarget "LyncExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8649E642199223C5006AFAE7 /* Debug */,
+				8649E643199223C5006AFAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8649E644199223C5006AFAE7 /* Build configuration list for PBXNativeTarget "LyncExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8649E645199223C5006AFAE7 /* Debug */,
+				8649E646199223C5006AFAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8649E607199223C5006AFAE7 /* Project object */;
+}
