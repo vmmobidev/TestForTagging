@@ -18,6 +18,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+}
+- (IBAction)but:(id)sender
+{
+    UIApplication *application = [UIApplication sharedApplication];
+    
+    NSString *scheme = @"lync";
+    
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@://", scheme]];
+    if ([application canOpenURL:url])
+    {
+        NSLog(@"Found lync");
+        [application openURL:url];
+    }else
+    {
+        NSLog(@"Not found");
+    }
 }
 
 - (void)didReceiveMemoryWarning
